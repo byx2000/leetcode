@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{D7BEE5
 		common\common.h = common\common.h
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "硬币", "动态规划\硬币\硬币.vcxproj", "{6AAFF66A-C6C0-4B5C-B614-3BFFEF1A6536}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -48,6 +50,14 @@ Global
 		{31F56DB6-AC1A-463A-8C90-0D6F1D65C5A2}.Release|x64.Build.0 = Release|x64
 		{31F56DB6-AC1A-463A-8C90-0D6F1D65C5A2}.Release|x86.ActiveCfg = Release|Win32
 		{31F56DB6-AC1A-463A-8C90-0D6F1D65C5A2}.Release|x86.Build.0 = Release|Win32
+		{6AAFF66A-C6C0-4B5C-B614-3BFFEF1A6536}.Debug|x64.ActiveCfg = Debug|x64
+		{6AAFF66A-C6C0-4B5C-B614-3BFFEF1A6536}.Debug|x64.Build.0 = Debug|x64
+		{6AAFF66A-C6C0-4B5C-B614-3BFFEF1A6536}.Debug|x86.ActiveCfg = Debug|Win32
+		{6AAFF66A-C6C0-4B5C-B614-3BFFEF1A6536}.Debug|x86.Build.0 = Debug|Win32
+		{6AAFF66A-C6C0-4B5C-B614-3BFFEF1A6536}.Release|x64.ActiveCfg = Release|x64
+		{6AAFF66A-C6C0-4B5C-B614-3BFFEF1A6536}.Release|x64.Build.0 = Release|x64
+		{6AAFF66A-C6C0-4B5C-B614-3BFFEF1A6536}.Release|x86.ActiveCfg = Release|Win32
+		{6AAFF66A-C6C0-4B5C-B614-3BFFEF1A6536}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +66,7 @@ Global
 		{24788424-9FB8-4219-B757-30EDCABDD9A1} = {20B80338-5E3B-44EB-B3AB-6F0CD8AC8619}
 		{2CFBC3F7-088E-4079-BEB3-C98D5E814666} = {20B80338-5E3B-44EB-B3AB-6F0CD8AC8619}
 		{31F56DB6-AC1A-463A-8C90-0D6F1D65C5A2} = {20B80338-5E3B-44EB-B3AB-6F0CD8AC8619}
+		{6AAFF66A-C6C0-4B5C-B614-3BFFEF1A6536} = {20B80338-5E3B-44EB-B3AB-6F0CD8AC8619}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {14897865-89D6-48C5-B062-C4B642A0B090}
