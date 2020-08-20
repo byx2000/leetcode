@@ -15,9 +15,7 @@ class Solution
             return;
         }
 
-        dfs(index + 1);
-
-        for (int i = index + 1; i < nums.size(); ++i)
+        for (int i = index; i < nums.size(); ++i)
         {
             swap(nums[index], nums[i]);
             dfs(index + 1);
