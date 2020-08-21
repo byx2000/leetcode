@@ -1,6 +1,6 @@
 // https://leetcode-cn.com/problems/wildcard-matching/
 
-#include "../../common/common.h"
+#include "../common/common.h"
 
 class Solution
 {

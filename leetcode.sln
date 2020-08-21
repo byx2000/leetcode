@@ -3,30 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "动态规划", "动态规划", "{20B80338-5E3B-44EB-B3AB-6F0CD8AC8619}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "格雷编码", "格雷编码\格雷编码.vcxproj", "{24788424-9FB8-4219-B757-30EDCABDD9A1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "格雷编码", "动态规划\格雷编码\格雷编码.vcxproj", "{24788424-9FB8-4219-B757-30EDCABDD9A1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "通配符匹配", "通配符匹配\通配符匹配.vcxproj", "{2CFBC3F7-088E-4079-BEB3-C98D5E814666}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "通配符匹配", "动态规划\通配符匹配\通配符匹配.vcxproj", "{2CFBC3F7-088E-4079-BEB3-C98D5E814666}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "把数字翻译成字符串", "动态规划\把数字翻译成字符串\把数字翻译成字符串.vcxproj", "{31F56DB6-AC1A-463A-8C90-0D6F1D65C5A2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "把数字翻译成字符串", "把数字翻译成字符串\把数字翻译成字符串.vcxproj", "{31F56DB6-AC1A-463A-8C90-0D6F1D65C5A2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{D7BEE5F6-4DB2-4E10-9AE2-E76231A70F8A}"
 	ProjectSection(SolutionItems) = preProject
 		common\common.h = common\common.h
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "硬币", "动态规划\硬币\硬币.vcxproj", "{6AAFF66A-C6C0-4B5C-B614-3BFFEF1A6536}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "硬币", "硬币\硬币.vcxproj", "{6AAFF66A-C6C0-4B5C-B614-3BFFEF1A6536}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "目标和", "动态规划\目标和\目标和.vcxproj", "{8FA87E07-1C6A-463A-8044-2C6339325DFD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "目标和", "目标和\目标和.vcxproj", "{8FA87E07-1C6A-463A-8044-2C6339325DFD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "分割等和子集", "动态规划\分割等和子集\分割等和子集.vcxproj", "{507FCA5A-0989-49B1-A615-DBD80C4A8E66}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "分割等和子集", "分割等和子集\分割等和子集.vcxproj", "{507FCA5A-0989-49B1-A615-DBD80C4A8E66}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "穷举", "穷举", "{6159F549-E91A-4D9C-9188-C3E3A4905E3C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "组合总和", "组合总和\组合总和.vcxproj", "{4A308557-7A37-4ED5-B1D9-2AA6C1052EE7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "组合总和", "穷举\组合总和\组合总和.vcxproj", "{4A308557-7A37-4ED5-B1D9-2AA6C1052EE7}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "全排列", "穷举\全排列\全排列.vcxproj", "{D30F5C20-4E3C-4300-9440-EC7E3FE1FF63}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "全排列", "全排列\全排列.vcxproj", "{D30F5C20-4E3C-4300-9440-EC7E3FE1FF63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,16 +99,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{24788424-9FB8-4219-B757-30EDCABDD9A1} = {20B80338-5E3B-44EB-B3AB-6F0CD8AC8619}
-		{2CFBC3F7-088E-4079-BEB3-C98D5E814666} = {20B80338-5E3B-44EB-B3AB-6F0CD8AC8619}
-		{31F56DB6-AC1A-463A-8C90-0D6F1D65C5A2} = {20B80338-5E3B-44EB-B3AB-6F0CD8AC8619}
-		{6AAFF66A-C6C0-4B5C-B614-3BFFEF1A6536} = {20B80338-5E3B-44EB-B3AB-6F0CD8AC8619}
-		{8FA87E07-1C6A-463A-8044-2C6339325DFD} = {20B80338-5E3B-44EB-B3AB-6F0CD8AC8619}
-		{507FCA5A-0989-49B1-A615-DBD80C4A8E66} = {20B80338-5E3B-44EB-B3AB-6F0CD8AC8619}
-		{4A308557-7A37-4ED5-B1D9-2AA6C1052EE7} = {6159F549-E91A-4D9C-9188-C3E3A4905E3C}
-		{D30F5C20-4E3C-4300-9440-EC7E3FE1FF63} = {6159F549-E91A-4D9C-9188-C3E3A4905E3C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {14897865-89D6-48C5-B062-C4B642A0B090}

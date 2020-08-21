@@ -1,6 +1,6 @@
 // https://leetcode-cn.com/problems/coin-lcci/
 
-#include "../../common/common.h"
+#include "../common/common.h"
 
 class Solution
 {

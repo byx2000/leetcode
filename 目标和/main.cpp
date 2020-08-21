@@ -1,6 +1,6 @@
 // https://leetcode-cn.com/problems/target-sum/
 
-#include "../../common/common.h"
+#include "../common/common.h"
 
 class Solution
 {
